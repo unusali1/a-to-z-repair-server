@@ -222,7 +222,7 @@ client.connect((err) => {
     My Testing APIS                                                                         
   */
 
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
 	res.send("Welcome to A to Z Repair Server API");
 });
 
